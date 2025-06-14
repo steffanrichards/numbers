@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milk Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Milk Converter</h1>
+        <div class="converter">
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit">
+                <option value="litres">Litres</option>
+                <option value="kg">Kilograms</option>
+            </select>
+            <span>to</span>
+            <select id="outputUnit">
+                <option value="kg">Kilograms</option>
+                <option value="litres">Litres</option>
+            </select>
+            <button id="convertBtn">Convert</button>
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
